@@ -1553,11 +1553,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/camper/agendadb/agendadb.csproj",
+      "projectUniqueName": "/home/camper/CreacionDatabase/agendadb.csproj",
       "projectName": "agendadb",
-      "projectPath": "/home/camper/agendadb/agendadb.csproj",
+      "projectPath": "/home/camper/CreacionDatabase/agendadb.csproj",
       "packagesPath": "/home/camper/.nuget/packages/",
-      "outputPath": "/home/camper/agendadb/obj/",
+      "outputPath": "/home/camper/CreacionDatabase/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/camper/.nuget/NuGet/NuGet.Config"

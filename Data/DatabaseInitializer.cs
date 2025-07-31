@@ -21,19 +21,10 @@ namespace agendadb.Data
             {
                 conexion.Open();
 
-                string dropTablaClientes = @"
-                    DROP TABLE IF EXISTS clientes";
-
-                string dropTablaPais = @"
-                    DROP TABLE IF EXISTS paises;";
-
-                string dropTablaDepartamento = @"
-                    DROP TABLE IF EXISTS departamentos";
-
-                // Ejecuta las consultas
-                Ejecutar(dropTablaPais, conexion);
-                Ejecutar(dropTablaDepartamento, conexion);
-                Ejecutar(dropTablaClientes, conexion);
+                string databaseCreate = @"
+                    DROP DATABASE IF EXISTS introcsharp;
+                    CREATE DATABASE IF NOT EXISTS introcsharp";
+                Ejecutar(databaseCreate, conexion);
             }
         }
 

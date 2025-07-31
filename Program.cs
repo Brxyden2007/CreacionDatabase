@@ -11,6 +11,7 @@ internal class Program
         string connStr = "server=localhost;database=introcsharp;user=campus2023;password=campus2023;";
 
         var dbInit = new DatabaseInitializer(connStr);
+        dbInit.CreateDatabase();
         dbInit.DropTablas();
         dbInit.CrearTablas();
 

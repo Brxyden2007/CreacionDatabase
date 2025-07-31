@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "loUQW6+J2S8=",
+  "dgSpecHash": "l3Kk+d5wZ9A=",
   "success": true,
-  "projectFilePath": "/home/camper/agendadb/agendadb.csproj",
+  "projectFilePath": "/home/camper/CreacionDatabase/agendadb.csproj",
   "expectedPackageFiles": [
     "/home/camper/.nuget/packages/bouncycastle.cryptography/2.5.1/bouncycastle.cryptography.2.5.1.nupkg.sha512",
     "/home/camper/.nuget/packages/google.protobuf/3.30.0/google.protobuf.3.30.0.nupkg.sha512",
