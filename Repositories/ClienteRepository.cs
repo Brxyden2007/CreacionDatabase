@@ -24,9 +24,9 @@ namespace agendadb.Repositories
         public void Crear(Cliente cliente)
         {
             var connection = _conexion.ObtenerConexion();
-            string query = "INSERT INTO clientes (name) VALUES (@name)";
+            string query = "INSERT INTO clientes (nombre) VALUES (@nombre)";
             using var cmd = new MySqlCommand(query, connection);
-            cmd.Parameters.AddWithValue("@name", cliente.Nombre);
+            cmd.Parameters.AddWithValue("@nombre", cliente.Nombre);
             cmd.ExecuteNonQuery();
         }
 

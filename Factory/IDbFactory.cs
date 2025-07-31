@@ -10,5 +10,6 @@ namespace agendadb.Factory
     {
         IClienteRepository CrearClienteRepository();
         IPaisRepository CrearPaisRepository();
+        IDepartamentoRepository CrearDepartamentoRepository();
     }
 }

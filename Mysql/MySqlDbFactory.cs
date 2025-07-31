@@ -11,7 +11,6 @@ namespace agendadb.Mysql
     public class MySqlDbFactory : IDbFactory
     {
         private readonly string _connectionString;
-
         public MySqlDbFactory(string connectionString)
         {
             _connectionString = connectionString;
@@ -25,5 +24,11 @@ namespace agendadb.Mysql
         {
             return new PaisRepository(_connectionString);
         }
+
+        public IDepartamentoRepository CrearDepartamentoRepository()
+        {
+            return new DepartamentoRepository(_connectionString);
+        }
     }
 }
+

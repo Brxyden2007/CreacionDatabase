@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("agendadb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+560da1468e7cfc57efa0d050b0305fbed0d975b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("agendadb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("agendadb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
