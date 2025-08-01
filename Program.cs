@@ -10,7 +10,7 @@ internal class Program
     private static void Main(string[] args)
     {
         
-        string connStr = "server=localhost;user=root;password=BRAYDEN714bRayden714;";
+        string connStr = "server=localhost;user=campus2023;password=campus2023;";
 
         var dbInit = new DatabaseInitializer(connStr);
         dbInit.CreateDatabase();

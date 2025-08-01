@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\whato\\CreacionDatabase\\agendadb.csproj": {}
+    "/home/camper/CreacionDatabase/agendadb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\whato\\CreacionDatabase\\agendadb.csproj": {
+    "/home/camper/CreacionDatabase/agendadb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\whato\\CreacionDatabase\\agendadb.csproj",
+        "projectUniqueName": "/home/camper/CreacionDatabase/agendadb.csproj",
         "projectName": "agendadb",
-        "projectPath": "C:\\Users\\whato\\CreacionDatabase\\agendadb.csproj",
-        "packagesPath": "C:\\Users\\whato\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\whato\\CreacionDatabase\\obj\\",
+        "projectPath": "/home/camper/CreacionDatabase/agendadb.csproj",
+        "packagesPath": "/home/camper/.nuget/packages/",
+        "outputPath": "/home/camper/CreacionDatabase/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\whato\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/camper/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -66,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

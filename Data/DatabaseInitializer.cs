@@ -66,14 +66,17 @@ namespace agendadb.Data
 
                 string crearTablaPais = @"
                     CREATE TABLE IF NOT EXISTS paises (
-                        Id INT AUTO_INCREMENT PRIMARY KEY,
+                        Id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
                         Name VARCHAR(100) NOT NULL
                     );";
 
                 string crearTablaDepartamento = @"
                     CREATE TABLE IF NOT EXISTS departamentos (
-                        Id INT AUTO_INCREMENT PRIMARY KEY,
-                        Name VARCHAR(100) NOT NULL
+                        Id INT AUTO_INCREMENT,
+                        Name VARCHAR(100) NOT NULL,
+                        paisId INT NOT NULL,
+                        PRIMARY KEY(Id, paisId),
+                        FOREIGN KEY(paisId) REFERENCES paises(Id)
                     );";
 
                 // Ejecuta las consultas
