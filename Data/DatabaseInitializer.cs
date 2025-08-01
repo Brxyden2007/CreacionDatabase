@@ -23,7 +23,9 @@ namespace agendadb.Data
 
                 string databaseCreate = @"
                     DROP DATABASE IF EXISTS introcsharp;
-                    CREATE DATABASE IF NOT EXISTS introcsharp";
+                    CREATE DATABASE IF NOT EXISTS introcsharp;
+                    USE introcsharp;
+                    ";
                 Ejecutar(databaseCreate, conexion);
             }
         }

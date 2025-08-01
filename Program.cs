@@ -3,12 +3,14 @@ using agendadb.Factory;
 using agendadb.Mysql;
 using agendadb.Services;
 using MySql.Data.MySqlClient;
+using System;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        string connStr = "server=localhost;database=introcsharp;user=campus2023;password=campus2023;";
+        
+        string connStr = "server=localhost;user=root;password=BRAYDEN714bRayden714;";
 
         var dbInit = new DatabaseInitializer(connStr);
         dbInit.CreateDatabase();
@@ -28,3 +30,5 @@ internal class Program
 
     }
 }
+
+// Modificacion 9:26 p.m. = Quite el database en el connStr, ya que me interfiere a la hora de crear la base de datos
